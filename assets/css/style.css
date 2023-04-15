@@ -1,2 +1,61 @@
+/*Se agrega color de fondo a todo el sitio*/
+body {
+    background-color: #f0f2f2;
+    
+}
+
+/*Se agrega tipografia, color de fondo a navbar*/
+.navbar {
+    font-family: 'Roboto', sans-serif;
+    background-color: #223640;
+    font-weight: bold;
+}
+
+/*Cambio color de fondo a header*/
+header div {
+    background-color: #539aca;
+  }
+
+/*Cambio de  tipografia, color en h1*/
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #f0f2f2;
+    text-transform: uppercase;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #f0f2f2;
+    text-transform: uppercase;
+}
+
+/*Se cambia tipografia en h2*/
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #223640;
+    text-transform: uppercase;
+}
 
 
+/*Se agrega color de fondo a footer*/
+footer {
+    background-color: #539aca;    
+}
+
+/*Se agrega color y tipografia a "p" de footer*/
+footer p{
+    color: #f0f2f2;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+/*Se agrega color y tipografia a "p" de section*/
+section p{
+    color: #223640;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: justify;
+}

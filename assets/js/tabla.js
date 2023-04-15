@@ -1,4 +1,5 @@
 
+// se crea un arreglo llamado dataSet con la estructura de la tabla
     let dataSet = [
         ['101', 'Tarjeta gpu nvidia 9600', 'GPU', 'UN', '$820,800'],
         ['121', 'Tarjeta gpu nvidia 8200', 'GPU', 'UN', '$670,750'],
@@ -22,11 +23,17 @@
         ['265', 'Procesador AMD Ryzen7', 'PROCESADOR', 'UN', '$303,600'],
         
     ];
-     
+
+    // función de jquery que permite que el bloque se ejecute cuando 
+    // la página este disponible. Es el equivalente a $(document).ready(function() {
     $(function () {
 
+        // aplicación de estilos al título
         $( "h1" ).css({ background: "#ccc", color: "blue" });
 
+        // se asigna propiedades de datatable a la tabla con id myTabla
+        // creada en el html, se definen las columnas y se agregan los 
+        // los registros a la data.
         $('#myTabla').DataTable({
             data: dataSet,
             columns: [

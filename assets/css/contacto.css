@@ -1,9 +1,17 @@
+/* estilos página de contacto --> */
+
+/* importación de fuente Roboto desde google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+/* estilos a los elementos de la cabecera */
 .header {
     color: #36A0FF;
     font-size: 27px;
     padding: 10px;
+    font-family: 'Roboto', sans-serif;
 }
-
+/* estilo que cambia tamaño y color de la fuente
+de los íconos obtenidos de la libreria fontawesome */
 .bigicon {
     font-size: 35px;
     color: #36A0FF;
@@ -11,17 +19,29 @@
 i {
     float: right;
 }
+
+/* estilo que asigna un tamaño del 60% a todos los input */
 input {
     width: 60%;
 }
 
+/* estilo de los nombres de los input */
+.form-label {
+    color: #36A0FF;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* estilo que hace desaparecer los íconos del formulario 
+cuando la pantalla es menor a 425px */
 @media only screen and (max-width: 425px){
     span {
         display: none;
     }
 
 }
-
+/* estilo que alinea los elementos a la izquierda 
+y cambia el tamaño de los íconos cuando la pantalla 
+es menor a 768px  */
 @media only screen and (max-width: 768px){
     i {
         float: left;

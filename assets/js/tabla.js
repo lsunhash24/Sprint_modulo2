@@ -43,6 +43,23 @@
                 { title: 'U.Medida' },
                 { title: 'Precio Venta' },
             ],
+
+            //Actualización de etiquetas de la tabla para mostrarlas en español
+            "language": {
+                "lengthMenu": "Mostrar_MENU_ registros por página.",
+                "zeroRecords": "No se encontró registro.",
+                "info": "  _START_ de _END_ (_TOTAL_registros totales).",
+                "infoEmpty": "0 de 0 de 0 registros",
+                "infoFiltered": "(Encontrado de _MAX_registros)",
+                "search": "Buscar: ",
+                "processing": "Procesando la información",
+                "paginate": {
+                    "first": " |< ",
+                    "previous": "Ant.",
+                    "next": "Sig.",
+                    "last": " >| "
+                }
+            }    
         });
         clearInterval
     });

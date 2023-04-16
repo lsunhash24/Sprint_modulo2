@@ -3,6 +3,13 @@
 /* importación de fuente Roboto desde google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
+/*Se agrega tipografia, color de fondo a navbar*/
+.navbar {
+    font-family: 'Roboto', sans-serif;
+    background-color: #223640;
+    font-weight: bold;
+}
+
 /* estilos a los elementos de la cabecera */
 .header {
     color: #36A0FF;

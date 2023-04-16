@@ -63,7 +63,7 @@
 //         });
 //         clearInterval
 //     });
-    //se usa ejemplo de DataTable
+    //se usa ejemplo de DataTable junto a jquery y bootstrap
     $(document).ready(function () {
         $('#example').DataTable({
             scrollY: '50vh',

@@ -7,7 +7,7 @@
  // el método preventDefault evita que se envíe el formulario por defecto.
  form.addEventListener("submit", function(event) {
   event.preventDefault()
-// se obtiene el valor de cada input pot su id 
+// se obtiene el valor de cada input por su id 
     let nombre = document.getElementById("name").value;
     let correo = document.getElementById("email").value;
     let mensaje = document.getElementById("message").value;
